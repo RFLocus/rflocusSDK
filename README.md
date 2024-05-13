@@ -10,4 +10,4 @@ Androidプラットフォーム用のソフトウェア開発キットで、RFID
 [Documentation](https://rflocus.github.io/rflocusSDK/p3finder)
 
 ## Sample
-(p3findersample)[p3findersample/]
+[p3findersample](p3findersample/)
