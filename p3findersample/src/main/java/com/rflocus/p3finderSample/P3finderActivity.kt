@@ -10,12 +10,10 @@ import com.rflocus.p3finder.P3FinderSdk
 import com.rflocus.p3finder.P3FinderView
 import com.rflocus.p3finder.RSSIRangeParameter
 import com.rflocus.p3finder.TagLocation
+import com.rflocus.rfid.*
 import com.rflocus.rfid.Enum
 import com.rflocus.rfid.Enum.ReaderCommand
 import com.rflocus.rfid.Enum.ReaderStatus
-import com.rflocus.rfid.Filter
-import com.rflocus.rfid.GenericReader
-import com.rflocus.rfid.TagData
 import java.util.*
 
 
@@ -137,9 +135,8 @@ class P3finderActivity : RfidActivity(){
         if(status == ReaderStatus.connected){
            //do something
             mReader?.let {
-                //Keyence RH1:
-                // power: 5~30dbm
-                //channel:0:916.8,1:918.0;2:919.2;3:920.4;4:920.6;5:920.8
+                //power: 5~30dbm
+                //channel:0:916.8;1:918.0;2:919.2;3:920.4;4:920.6;5:920.8
                 it.power = 30f
                 it.channel = intArrayOf(3,4,5)
             }
