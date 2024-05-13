@@ -3,10 +3,13 @@ Androidプラットフォーム用のソフトウェア開発キットで、RFID
 
 [Documentation](https://rflocus.github.io/rflocusSDK/)
 
-## [R3HandyEngineDocumentation](https://rflocus.github.io/rflocusSDK/R3HandyEngine)
+## R3HandyEngine
+[Documentation](https://rflocus.github.io/rflocusSDK/R3HandyEngine)
+
+## p3finder
+[Documentation](https://rflocus.github.io/rflocusSDK/p3finder)
+
+## Sample
+[sample](p3findersample/)
 
 
-## [p3finderDocumentation](https://rflocus.github.io/rflocusSDK/p3finder)
-
-
-## [p3findersample](p3findersample/)
