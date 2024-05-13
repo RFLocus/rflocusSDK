@@ -1,0 +1,408 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>P3FinderSdk</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            RFLocus SDK
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":p3finder:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="p3finder::com.rflocus.p3finder/P3FinderSdk///PointingToDeclaration//1720045194">
+  <div class="breadcrumbs"><a href="../../index.html">p3finder</a><span class="delimiter">/</span><a href="../index.html">com.rflocus.p3finder</a><span class="delimiter">/</span><span class="current">P3FinderSdk</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>P3Finder</span><wbr><span><span>Sdk</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">P3FinderSdk</a></div><p class="paragraph">* This class allows some customization of P3FinderSdk behavior.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="TYPE">
+        <h2 class="">Types</h2>
+        <div class="table"><a data-name="-1676985875%2FClasslikes%2F1720045194" anchor-label="P3FinderSdkCallback" id="-1676985875%2FClasslikes%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p3-finder-sdk-callback/index.html"><span>P3Finder</span><wbr><span>Sdk</span><wbr><span><span>Callback</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1676985875%2FClasslikes%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="-p3-finder-sdk-callback/index.html">P3FinderSdkCallback</a></div><div class="brief ">A callback interface for reporting when initialize and authentication finishes.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="959422761%2FProperties%2F1720045194" anchor-label="CLEAR_STATE_WHEN_NOT_READ" id="959422761%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-l-e-a-r_-s-t-a-t-e_-w-h-e-n_-n-o-t_-r-e-a-d.html"><span><span>CLEAR_STATE_WHEN_NOT_READ</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="959422761%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-c-l-e-a-r_-s-t-a-t-e_-w-h-e-n_-n-o-t_-r-e-a-d.html">CLEAR_STATE_WHEN_NOT_READ</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1177736347%2FProperties%2F1720045194" anchor-label="DEBUG_MODE" id="1177736347%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-d-e-b-u-g_-m-o-d-e.html"><span><span>DEBUG_MODE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1177736347%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-d-e-b-u-g_-m-o-d-e.html">DEBUG_MODE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">* true: It will save the log file to the folder:/Download/p3finder_log.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="954896099%2FProperties%2F1720045194" anchor-label="DIFF_PHASE_FACTOR" id="954896099%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-d-i-f-f_-p-h-a-s-e_-f-a-c-t-o-r.html"><span><span>DIFF_PHASE_FACTOR</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="954896099%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-d-i-f-f_-p-h-a-s-e_-f-a-c-t-o-r.html">DIFF_PHASE_FACTOR</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1682771508%2FProperties%2F1720045194" anchor-label="FREQUENCY" id="1682771508%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-f-r-e-q-u-e-n-c-y.html"><span><span>FREQUENCY</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1682771508%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-f-r-e-q-u-e-n-c-y.html">FREQUENCY</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1611519923%2FProperties%2F1720045194" anchor-label="IsShownRainbowArc" id="-1611519923%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-is-shown-rainbow-arc.html"><span>Is</span><wbr><span>Shown</span><wbr><span>Rainbow</span><wbr><span><span>Arc</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1611519923%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-is-shown-rainbow-arc.html">IsShownRainbowArc</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1383520339%2FProperties%2F1720045194" anchor-label="MAX_DUMMY_COUNT" id="1383520339%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-a-x_-d-u-m-m-y_-c-o-u-n-t.html"><span><span>MAX_DUMMY_COUNT</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1383520339%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-m-a-x_-d-u-m-m-y_-c-o-u-n-t.html">MAX_DUMMY_COUNT</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-514462976%2FProperties%2F1720045194" anchor-label="PHASE_AMPLITUDE_LIMITING_FILTER" id="-514462976%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-h-a-s-e_-a-m-p-l-i-t-u-d-e_-l-i-m-i-t-i-n-g_-f-i-l-t-e-r.html"><span><span>PHASE_AMPLITUDE_LIMITING_FILTER</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-514462976%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-p-h-a-s-e_-a-m-p-l-i-t-u-d-e_-l-i-m-i-t-i-n-g_-f-i-l-t-e-r.html">PHASE_AMPLITUDE_LIMITING_FILTER</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1553392473%2FProperties%2F1720045194" anchor-label="PHASE_LOW_PASS_FILTER" id="1553392473%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-h-a-s-e_-l-o-w_-p-a-s-s_-f-i-l-t-e-r.html"><span><span>PHASE_LOW_PASS_FILTER</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1553392473%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-p-h-a-s-e_-l-o-w_-p-a-s-s_-f-i-l-t-e-r.html">PHASE_LOW_PASS_FILTER</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1977855045%2FProperties%2F1720045194" anchor-label="REFLECT_MODE" id="1977855045%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-r-e-f-l-e-c-t_-m-o-d-e.html"><span><span>REFLECT_MODE</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1977855045%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-r-e-f-l-e-c-t_-m-o-d-e.html">REFLECT_MODE</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="985205353%2FProperties%2F1720045194" anchor-label="TAG_CHECK_INTERVAL" id="985205353%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-t-a-g_-c-h-e-c-k_-i-n-t-e-r-v-a-l.html"><span><span>TAG_CHECK_INTERVAL</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="985205353%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-t-a-g_-c-h-e-c-k_-i-n-t-e-r-v-a-l.html">TAG_CHECK_INTERVAL</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1036676331%2FProperties%2F1720045194" anchor-label="TAG_LIVE_TIME" id="-1036676331%2FProperties%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-t-a-g_-l-i-v-e_-t-i-m-e.html"><span><span>TAG_LIVE_TIME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1036676331%2FProperties%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="-t-a-g_-l-i-v-e_-t-i-m-e.html">TAG_LIVE_TIME</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1205285237%2FFunctions%2F1720045194" anchor-label="authenticate" id="1205285237%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="authenticate.html"><span><span>authenticate</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1205285237%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="authenticate.html"><span class="token function">authenticate</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1740278460%2FFunctions%2F1720045194" anchor-label="getRssiRangeList" id="1740278460%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-rssi-range-list.html"><span>get</span><wbr><span>Rssi</span><wbr><span>Range</span><wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1740278460%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-rssi-range-list.html"><span class="token function">getRssiRangeList</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/List.html">List</a><span class="token operator">&lt;</span><a href="../-r-s-s-i-range-parameter/index.html">RSSIRangeParameter</a><span class="token operator">&gt;</span></div><div class="brief ">* Gets A List that contains the configurations of rssi-range parameters.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1793392972%2FFunctions%2F1720045194" anchor-label="getTagLocation" id="1793392972%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-tag-location.html"><span>get</span><wbr><span>Tag</span><wbr><span><span>Location</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1793392972%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-tag-location.html"><span class="token function">getTagLocation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-tag-location/index.html">TagLocation</a></div><div class="brief ">* Gets a instance of TagLocation by id.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="137866795%2FFunctions%2F1720045194" anchor-label="isAuthenticated" id="137866795%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-authenticated.html"><span>is</span><wbr><span><span>Authenticated</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="137866795%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="is-authenticated.html"><span class="token function">isAuthenticated</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">A boolean value indicates whether P3FinderSdk has been authenticated.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1384004083%2FFunctions%2F1720045194" anchor-label="removeLicense" id="1384004083%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-license.html"><span>remove</span><wbr><span><span>License</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1384004083%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="remove-license.html"><span class="token function">removeLicense</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="276031445%2FFunctions%2F1720045194" anchor-label="removeRssiRangeParamter" id="276031445%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-rssi-range-paramter.html"><span>remove</span><wbr><span>Rssi</span><wbr><span>Range</span><wbr><span><span>Paramter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="276031445%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="remove-rssi-range-paramter.html"><span class="token function">removeRssiRangeParamter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">epcPrefix<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief ">* Removes a rssi-range parameter from P3finderSdk.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-963590311%2FFunctions%2F1720045194" anchor-label="sdkInitialize" id="-963590311%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="sdk-initialize.html"><span>sdk</span><wbr><span><span>Initialize</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-963590311%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="sdk-initialize.html"><span class="token function">sdkInitialize</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">appContext<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">callback<span class="token operator">: </span><a href="-p3-finder-sdk-callback/index.html">P3FinderSdk.P3FinderSdkCallback</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Initialize and authenticate P3FinderSdk.It should be called before any other functions of P3FinderSdk.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="219826338%2FFunctions%2F1720045194" anchor-label="setReaderType" id="219826338%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-reader-type.html"><span>set</span><wbr><span>Reader</span><wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="219826338%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-reader-type.html"><span class="token function">setReaderType</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">readerType<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-867011559%2FFunctions%2F1720045194" anchor-label="setRssiRangeParamter" id="-867011559%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-rssi-range-paramter.html"><span>set</span><wbr><span>Rssi</span><wbr><span>Range</span><wbr><span><span>Paramter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-867011559%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-rssi-range-paramter.html"><span class="token function">setRssiRangeParamter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">parameter<span class="token operator">: </span><a href="../-r-s-s-i-range-parameter/index.html">RSSIRangeParameter</a></span></span><span class="token punctuation">)</span></div><div class="brief ">* Sets a rssi-range value to the P3finderSdk.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

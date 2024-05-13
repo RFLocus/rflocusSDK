@@ -1,0 +1,295 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>TagLocation</title>
+<link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer></script></head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+<a class="library-name--link" href="../../../index.html">
+                            RFLocus SDK
+                    </a>            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":p3finder:dokkaHtmlPartial/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageids="p3finder::com.rflocus.p3finder/TagLocation///PointingToDeclaration//1720045194">
+  <div class="breadcrumbs"><a href="../../index.html">p3finder</a><span class="delimiter">/</span><a href="../index.html">com.rflocus.p3finder</a><span class="delimiter">/</span><span class="current">TagLocation</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Tag</span><wbr><span><span>Location</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">TagLocation</a></div><p class="paragraph">Contains the direction and the distance to the tag.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="-35525477%2FFunctions%2F1720045194" anchor-label="computeDistance" id="-35525477%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="compute-distance.html"><span>compute</span><wbr><span><span>Distance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-35525477%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="compute-distance.html"><span class="token function">computeDistance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">phase<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">frequency<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a><span class="token punctuation">, </span></span><span class="parameter ">polarization<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief ">* Computes the distance that the reader has traveled to the tag.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1865834201%2FFunctions%2F1720045194" anchor-label="getDistance" id="-1865834201%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-distance.html"><span>get</span><wbr><span><span>Distance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1865834201%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-distance.html"><span class="token function">getDistance</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief ">* Gets the distance shown on radarView.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="894018991%2FFunctions%2F1720045194" anchor-label="getDistanceLevel" id="894018991%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-distance-level.html"><span>get</span><wbr><span>Distance</span><wbr><span><span>Level</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="894018991%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-distance-level.html"><span class="token function">getDistanceLevel</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../../p3finder/com.rflocus.p3finder/-distance-level/index.html">DistanceLevel</a></div><div class="brief ">Gets the the DistanceLevel:Immediate/Close/Near/Far/Farther This value is computed according to the RSSIRangeParameter settings.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2088242158%2FFunctions%2F1720045194" anchor-label="getDistanceTraveled" id="2088242158%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-distance-traveled.html"><span>get</span><wbr><span>Distance</span><wbr><span><span>Traveled</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2088242158%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-distance-traveled.html"><span class="token function">getDistanceTraveled</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief ">Gets the distance that the reader has traveled to the tag.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1904995839%2FFunctions%2F1720045194" anchor-label="getId" id="-1904995839%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-id.html"><span>get</span><wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1904995839%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-id.html"><span class="token function">getId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Gets the ID</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="414673560%2FFunctions%2F1720045194" anchor-label="getLocateStatus" id="414673560%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-locate-status.html"><span>get</span><wbr><span>Locate</span><wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="414673560%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-locate-status.html"><span class="token function">getLocateStatus</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-locate-status/index.html">LocateStatus</a></div><div class="brief ">* Gets the TagStatus.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1001379777%2FFunctions%2F1720045194" anchor-label="getLogMsg" id="-1001379777%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-log-msg.html"><span>get</span><wbr><span>Log</span><wbr><span><span>Msg</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1001379777%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-log-msg.html"><span class="token function">getLogMsg</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Gets debug log message.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="363349464%2FFunctions%2F1720045194" anchor-label="getMarkImageIndex" id="363349464%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-mark-image-index.html"><span>get</span><wbr><span>Mark</span><wbr><span>Image</span><wbr><span><span>Index</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="363349464%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-mark-image-index.html"><span class="token function">getMarkImageIndex</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief ">Gets the index of MarkImageList in p3finderView</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1367466722%2FFunctions%2F1720045194" anchor-label="getPitch" id="-1367466722%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-pitch.html"><span>get</span><wbr><span><span>Pitch</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1367466722%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-pitch.html"><span class="token function">getPitch</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief ">Gets the vertical position.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1770141310%2FFunctions%2F1720045194" anchor-label="getSearchStatus" id="-1770141310%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-search-status.html"><span>get</span><wbr><span>Search</span><wbr><span><span>Status</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1770141310%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-search-status.html"><span class="token function">getSearchStatus</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../-search-status/index.html">SearchStatus</a></div><div class="brief ">Gets the SearchStatus.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1350670074%2FFunctions%2F1720045194" anchor-label="getTitle" id="-1350670074%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-title.html"><span>get</span><wbr><span><span>Title</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1350670074%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-title.html"><span class="token function">getTitle</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">Gets the text in mark shown on radarView</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="99345679%2FFunctions%2F1720045194" anchor-label="getYaw" id="99345679%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-yaw.html"><span>get</span><wbr><span><span>Yaw</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="99345679%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="get-yaw.html"><span class="token function">getYaw</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief ">Gets the horizontal position.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-130348505%2FFunctions%2F1720045194" anchor-label="setMarkImageIndex" id="-130348505%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-mark-image-index.html"><span>set</span><wbr><span>Mark</span><wbr><span>Image</span><wbr><span><span>Index</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-130348505%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="set-mark-image-index.html"><span class="token function">setMarkImageIndex</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">index<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Sets the index of MarkImageList in p3finderView</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1956282611%2FFunctions%2F1720045194" anchor-label="setTitle" id="-1956282611%2FFunctions%2F1720045194" data-filterable-set=":p3finder:dokkaHtmlPartial/release"></a>
+          <div class="table-row" data-filterable-current=":p3finder:dokkaHtmlPartial/release" data-filterable-set=":p3finder:dokkaHtmlPartial/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-title.html"><span>set</span><wbr><span><span>Title</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1956282611%2FFunctions%2F1720045194"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":p3finder:dokkaHtmlPartial/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">fun </span><a href="set-title.html"><span class="token function">setTitle</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">title<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief ">Sets the text in mark shown on radarView</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span class="pull-right"><span>Generated by </span><a href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

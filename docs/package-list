@@ -1,0 +1,8 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:p3finder
+com.rflocus.p3finder
+com.rflocus.p3finder.ui
+module:R3HandyEngine
+com.rflocus.rfid
