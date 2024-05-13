@@ -1,1 +1,1 @@
-sourceset_dependencies='{":R3HandyEngine:dokkaHtml/debug":[],":R3HandyEngine:dokkaHtml/main":[],":R3HandyEngine:dokkaHtml/release":[]}'
+sourceset_dependencies = '{":p3finder:dokkaHtmlPartial/debug":[],":p3finder:dokkaHtmlPartial/main":[],":p3finder:dokkaHtmlPartial/release":[],":R3HandyEngine:dokkaHtmlPartial/debug":[],":R3HandyEngine:dokkaHtmlPartial/main":[],":R3HandyEngine:dokkaHtmlPartial/release":[]}'
