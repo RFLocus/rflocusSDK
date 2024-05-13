@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_doWork"
+        android:title="@string/btn_start"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_reset"
+        android:title="@string/btn_reset"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/btn_settings" />
+
+    <item android:id="@+id/action_rssiRange"
+        android:title="@string/btn_rssiRange" />
+
+    <item android:id="@+id/action_license"
+        android:title="@string/btn_remove" />
+
+</menu>

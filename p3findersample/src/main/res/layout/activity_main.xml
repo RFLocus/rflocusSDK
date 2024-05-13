@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P3finderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.rflocus.p3finder.P3FinderView
+            android:id="@+id/p3finderView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:showCount="true"
+            app:showStatus="true"
+            app:showTitle="true"
+            app:showRssiBar="true"
+            app:viewType="top_side" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

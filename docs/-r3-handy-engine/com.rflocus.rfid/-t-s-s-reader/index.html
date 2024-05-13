@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>TSSReader</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>document.documentElement.classList.replace("no-js","js");</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="https://unpkg.com/kotlin-playground@1/dist/playground.min.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<link href="../../../styles/font-jb-sans-auto.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+    <div class="root">
+<nav class="navigation" id="navigation-wrapper">
+    <div class="navigation--inner">
+        <div class="navigation-title">
+            <button class="menu-toggle" id="menu-toggle" type="button">toggle menu</button>
+            <div class="library-name">
+                    <a class="library-name--link" href="../../../index.html">
+                            R3HandyEngine
+                    </a>
+            </div>
+            <div class="library-version">
+            </div>
+        </div>
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":R3HandyEngine:dokkaHtml/release">androidJvm</button>
+        </div>
+    </div>
+    <div class="navigation-controls">
+        <button class="navigation-controls--btn navigation-controls--theme" id="theme-toggle-button" type="button">switch theme</button>
+        <div class="navigation-controls--btn navigation-controls--search" id="searchBar" role="button">search in API</div>
+    </div>
+</nav>
+        <div id="container">
+            <div class="sidebar" id="leftColumn">
+                <div class="sidebar--inner" id="sideMenu"></div>
+            </div>
+            <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="R3HandyEngine::com.rflocus.rfid/TSSReader///PointingToDeclaration//858693387">
+  <div class="breadcrumbs"><a href="../../../index.html">R3HandyEngine</a><span class="delimiter">/</span><a href="../index.html">com.rflocus.rfid</a><span class="delimiter">/</span><span class="current">TSSReader</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>TSSReader</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">class </span><a href="index.html">TSSReader</a> : <a href="../-generic-reader/index.html">GenericReader</a>, <span data-unresolved-link="jp.co.tss21.uhfrfid.dotr_android/OnDotrEventListener///PointingToDeclaration/">OnDotrEventListener</span>, <a href="../../com.rflocus.rfid.ui/-bluetooth-helper/-bluetooth-helper-listener/index.html">BluetoothHelper.BluetoothHelperListener</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-1989648107%2FProperties%2F858693387" anchor-label="batteryState" id="-1989648107%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/battery-state.html"><span>battery</span><wbr></wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1989648107%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/battery-state.html">batteryState</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">バッテリー状態</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="6681536%2FProperties%2F858693387" anchor-label="channelList" id="6681536%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/channel-list.html"><span>channel</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="6681536%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/channel-list.html">channelList</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">設定できる周波数一覧</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1825171339%2FProperties%2F858693387" anchor-label="Companion" id="-1825171339%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-1825171339%2FProperties%2F858693387"><span><span>Companion</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1825171339%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="index.html#-1825171339%2FProperties%2F858693387">Companion</a><span class="token operator">: </span><a href="../-generic-reader/-companion/index.html">GenericReader.Companion</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="474396839%2FProperties%2F858693387" anchor-label="connectionListener" id="474396839%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/connection-listener.html"><span>connection</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="474396839%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/connection-listener.html">connectionListener</a><span class="token operator">: </span><a href="../-generic-reader/-generic-reader-connection-listener/index.html">GenericReader.GenericReaderConnectionListener</a></div><div class="brief "><p class="paragraph">イベントリスナ</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1915290918%2FProperties%2F858693387" anchor-label="DOTR3100_PREFIX" id="-1915290918%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-d-o-t-r3100_-p-r-e-f-i-x.html"><span><span>DOTR3100_PREFIX</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1915290918%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="-d-o-t-r3100_-p-r-e-f-i-x.html">DOTR3100_PREFIX</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator"> = </span><span class="token string">&quot;DOTR3100&quot;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-189810021%2FProperties%2F858693387" anchor-label="DOTR3200_PREFIX" id="-189810021%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-d-o-t-r3200_-p-r-e-f-i-x.html"><span><span>DOTR3200_PREFIX</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-189810021%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="-d-o-t-r3200_-p-r-e-f-i-x.html">DOTR3200_PREFIX</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator"> = </span><span class="token string">&quot;DOTR3200&quot;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="914745160%2FProperties%2F858693387" anchor-label="isBarcodeMode" id="914745160%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/is-barcode-mode.html"><span>is</span><wbr></wbr><span>Barcode</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="914745160%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/is-barcode-mode.html">isBarcodeMode</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><p class="paragraph">バーコードモードを有効にする場合はtrue、無効にする場合はfalse。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1224082658%2FProperties%2F858693387" anchor-label="japan_ch_frequency_map" id="-1224082658%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="japan_ch_frequency_map.html"><span><span>japan_ch_frequency_map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1224082658%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="japan_ch_frequency_map.html">japan_ch_frequency_map</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Map.html">Map</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a><span class="token punctuation">, </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="828991672%2FProperties%2F858693387" anchor-label="japan_frequency_ch_map" id="828991672%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="japan_frequency_ch_map.html"><span><span>japan_frequency_ch_map</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="828991672%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="japan_frequency_ch_map.html">japan_frequency_ch_map</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/util/Map.html">Map</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span data-unresolved-link="jp.co.tss21.uhfrfid.dotr_android/EnChannel///PointingToDeclaration/">EnChannel</span><span class="token operator">&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="491712203%2FProperties%2F858693387" anchor-label="KEY_DEVICE_ADDRESS" id="491712203%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-e-y_-d-e-v-i-c-e_-a-d-d-r-e-s-s.html"><span><span>KEY_DEVICE_ADDRESS</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="491712203%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="-k-e-y_-d-e-v-i-c-e_-a-d-d-r-e-s-s.html">KEY_DEVICE_ADDRESS</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator"> = </span><span class="token string">&quot;DEVICE_ADDRESS&quot;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-653917584%2FProperties%2F858693387" anchor-label="KEY_DEVICE_NAME" id="-653917584%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-e-y_-d-e-v-i-c-e_-n-a-m-e.html"><span><span>KEY_DEVICE_NAME</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-653917584%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="-k-e-y_-d-e-v-i-c-e_-n-a-m-e.html">KEY_DEVICE_NAME</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator"> = </span><span class="token string">&quot;DEVICE_NAME&quot;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1937252988%2FProperties%2F858693387" anchor-label="power" id="1937252988%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/power.html"><span><span>power</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1937252988%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/power.html">power</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></div><div class="brief "><p class="paragraph">RFIDリーダーの電力レベル</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1021622270%2FProperties%2F858693387" anchor-label="powerList" id="1021622270%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/power-list.html"><span>power</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1021622270%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/power-list.html">powerList</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/Float.html">Float</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">RFIDリーダーがサポートする電力レベルのリスト</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-136474471%2FProperties%2F858693387" anchor-label="qValue" id="-136474471%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/q-value.html"><span>q</span><wbr></wbr><span><span>Value</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-136474471%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/q-value.html">qValue</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">QValue アンテナのビューのフィールドで想定されるタグ数：2^Q</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="449301020%2FProperties%2F858693387" anchor-label="readerType" id="449301020%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/reader-type.html"><span>reader</span><wbr></wbr><span><span>Type</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="449301020%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/reader-type.html">readerType</a><span class="token operator">: </span><a href="../-enum/-reader-type/index.html">Enum.ReaderType</a></div><div class="brief "><p class="paragraph">RFIDリーダーのタイプ</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-513527294%2FProperties%2F858693387" anchor-label="rfMode" id="-513527294%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/rf-mode.html"><span>rf</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-513527294%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/rf-mode.html">rfMode</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><p class="paragraph">RFMode(LinkProfile)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1349413756%2FProperties%2F858693387" anchor-label="rfModeList" id="-1349413756%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/rf-mode-list.html"><span>rf</span><wbr></wbr><span>Mode</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1349413756%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/rf-mode-list.html">rfModeList</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">利用可能なRFモード(LinkProfile)のリスト</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="834346844%2FProperties%2F858693387" anchor-label="serialNumber" id="834346844%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/serial-number.html"><span>serial</span><wbr></wbr><span><span>Number</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="834346844%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/serial-number.html">serialNumber</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief "><p class="paragraph">リーダのシリアル番号</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1029249781%2FProperties%2F858693387" anchor-label="session" id="-1029249781%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/session.html"><span><span>session</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1029249781%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/session.html">session</a><span class="token operator">: </span><a href="../-enum/-session/index.html">Enum.Session</a></div><div class="brief "><p class="paragraph">C1G2 セッション</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1248268289%2FProperties%2F858693387" anchor-label="sessionFlag" id="-1248268289%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/session-flag.html"><span>session</span><wbr></wbr><span><span>Flag</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1248268289%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">var </span><a href="../-generic-reader/session-flag.html">sessionFlag</a><span class="token operator">: </span><a href="../-enum/-session-flag/index.html">Enum.SessionFlag</a></div><div class="brief "><p class="paragraph">RFIDリーダーのセッションフラグ</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-993906422%2FProperties%2F858693387" anchor-label="TAG" id="-993906422%2FProperties%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-t-a-g.html"><span><span>TAG</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-993906422%2FProperties%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">val </span><a href="-t-a-g.html">TAG</a><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="322061247%2FFunctions%2F858693387" anchor-label="clearFilter" id="322061247%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="clear-filter.html"><span>clear</span><wbr></wbr><span><span>Filter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="322061247%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="clear-filter.html"><span class="token function">clearFilter</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">設定されたFilterをクリアします。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1585062374%2FFunctions%2F858693387" anchor-label="connect" id="-1585062374%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="connect.html"><span><span>connect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1585062374%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="connect.html"><span class="token function">connect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">リーダへの接続を確立します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1830709562%2FFunctions%2F858693387" anchor-label="disconnect" id="1830709562%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="disconnect.html"><span><span>disconnect</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1830709562%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="disconnect.html"><span class="token function">disconnect</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">リーダとの接続を切断します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-286123766%2FFunctions%2F858693387" anchor-label="getBatteryState" id="-286123766%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-battery-state.html"><span>get</span><wbr></wbr><span>Battery</span><wbr></wbr><span><span>State</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-286123766%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-battery-state.html"><span class="token function">getBatteryState</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief ">バッテリー状態</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="454863340%2FFunctions%2F858693387" anchor-label="getChannel" id="454863340%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#454863340%2FFunctions%2F858693387"><span>get</span><wbr></wbr><span><span>Channel</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="454863340%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="index.html#454863340%2FFunctions%2F858693387"><span class="token function">getChannel</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">RFIDリーダーの周波数のIndex</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1334122382%2FFunctions%2F858693387" anchor-label="getDeviceAddress" id="1334122382%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-device-address.html"><span>get</span><wbr></wbr><span>Device</span><wbr></wbr><span><span>Address</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1334122382%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-device-address.html"><span class="token function">getDeviceAddress</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1906353261%2FFunctions%2F858693387" anchor-label="getDeviceName" id="1906353261%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-device-name.html"><span>get</span><wbr></wbr><span>Device</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1906353261%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-device-name.html"><span class="token function">getDeviceName</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1084299757%2FFunctions%2F858693387" anchor-label="getInstance" id="-1084299757%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-instance.html"><span>get</span><wbr></wbr><span><span>Instance</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1084299757%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-instance.html"><span class="token function">getInstance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">TSSReader</a></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-instance.html"><span class="token function">getInstance</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token punctuation">, </span></span><span class="parameter ">listener<span class="token operator">: </span><a href="../-generic-reader-listener/index.html">GenericReaderListener</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">TSSReader</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="516153132%2FFunctions%2F858693387" anchor-label="getPowerList" id="516153132%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#516153132%2FFunctions%2F858693387"><span>get</span><wbr></wbr><span>Power</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="516153132%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="index.html#516153132%2FFunctions%2F858693387"><span class="token function">getPowerList</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/Float.html">Float</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">RFIDリーダーがサポートする電力レベルのリスト</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="901869661%2FFunctions%2F858693387" anchor-label="getReaderInfo" id="901869661%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="get-reader-info.html"><span>get</span><wbr></wbr><span>Reader</span><wbr></wbr><span><span>Info</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="901869661%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="get-reader-info.html"><span class="token function">getReaderInfo</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></div><div class="brief ">リーダ情報</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="160912150%2FFunctions%2F858693387" anchor-label="getRfModeList" id="160912150%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#160912150%2FFunctions%2F858693387"><span>get</span><wbr></wbr><span>Rf</span><wbr></wbr><span>Mode</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="160912150%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="index.html#160912150%2FFunctions%2F858693387"><span class="token function">getRfModeList</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">利用可能なRFモード(LinkProfile)のリスト</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-211216347%2FFunctions%2F858693387" anchor-label="isConnected" id="-211216347%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-connected.html"><span>is</span><wbr></wbr><span><span>Connected</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-211216347%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="is-connected.html"><span class="token function">isConnected</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief ">接続状態を取得します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1431786598%2FFunctions%2F858693387" anchor-label="onConnected" id="-1431786598%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-connected.html"><span>on</span><wbr></wbr><span><span>Connected</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1431786598%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-connected.html"><span class="token function">onConnected</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1834447196%2FFunctions%2F858693387" anchor-label="onDisconnected" id="1834447196%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-disconnected.html"><span>on</span><wbr></wbr><span><span>Disconnected</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1834447196%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-disconnected.html"><span class="token function">onDisconnected</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="870513814%2FFunctions%2F858693387" anchor-label="onInventoryEPC" id="870513814%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-inventory-e-p-c.html"><span>on</span><wbr></wbr><span>Inventory</span><wbr></wbr><span><span>EPC</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="870513814%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-inventory-e-p-c.html"><span class="token function">onInventoryEPC</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">s<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2030143417%2FFunctions%2F858693387" anchor-label="onLinkLost" id="2030143417%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-link-lost.html"><span>on</span><wbr></wbr><span>Link</span><wbr></wbr><span><span>Lost</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2030143417%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-link-lost.html"><span class="token function">onLinkLost</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2016941142%2FFunctions%2F858693387" anchor-label="onReadTagData" id="-2016941142%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-read-tag-data.html"><span>on</span><wbr></wbr><span>Read</span><wbr></wbr><span>Tag</span><wbr></wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2016941142%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-read-tag-data.html"><span class="token function">onReadTagData</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">s<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">s1<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-854896280%2FFunctions%2F858693387" anchor-label="onScanCode" id="-854896280%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-scan-code.html"><span>on</span><wbr></wbr><span>Scan</span><wbr></wbr><span><span>Code</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-854896280%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-scan-code.html"><span class="token function">onScanCode</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">s<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="440398396%2FFunctions%2F858693387" anchor-label="onScanTriggerChanged" id="440398396%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-scan-trigger-changed.html"><span>on</span><wbr></wbr><span>Scan</span><wbr></wbr><span>Trigger</span><wbr></wbr><span><span>Changed</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="440398396%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-scan-trigger-changed.html"><span class="token function">onScanTriggerChanged</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">b<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1542527591%2FFunctions%2F858693387" anchor-label="onSelectedDevice" id="-1542527591%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-selected-device.html"><span>on</span><wbr></wbr><span>Selected</span><wbr></wbr><span><span>Device</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1542527591%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-selected-device.html"><span class="token function">onSelectedDevice</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">name<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">address<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-722517127%2FFunctions%2F858693387" anchor-label="onTagMemoryLocked" id="-722517127%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-tag-memory-locked.html"><span>on</span><wbr></wbr><span>Tag</span><wbr></wbr><span>Memory</span><wbr></wbr><span><span>Locked</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-722517127%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-tag-memory-locked.html"><span class="token function">onTagMemoryLocked</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">s<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1751664000%2FFunctions%2F858693387" anchor-label="onTriggerChaned" id="-1751664000%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-trigger-chaned.html"><span>on</span><wbr></wbr><span>Trigger</span><wbr></wbr><span><span>Chaned</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1751664000%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-trigger-chaned.html"><span class="token function">onTriggerChaned</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">b<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1703941701%2FFunctions%2F858693387" anchor-label="onUploadTagData" id="-1703941701%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-upload-tag-data.html"><span>on</span><wbr></wbr><span>Upload</span><wbr></wbr><span>Tag</span><wbr></wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1703941701%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-upload-tag-data.html"><span class="token function">onUploadTagData</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">s<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="788696909%2FFunctions%2F858693387" anchor-label="onWriteTagData" id="788696909%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="on-write-tag-data.html"><span>on</span><wbr></wbr><span>Write</span><wbr></wbr><span>Tag</span><wbr></wbr><span><span>Data</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="788696909%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="on-write-tag-data.html"><span class="token function">onWriteTagData</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">s<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="772404492%2FFunctions%2F858693387" anchor-label="readOneTag" id="772404492%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="read-one-tag.html"><span>read</span><wbr></wbr><span>One</span><wbr></wbr><span><span>Tag</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="772404492%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="read-one-tag.html"><span class="token function">readOneTag</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">一枚のタグの読取を開始します。<br></br> 読まれたタグ情報はGenericReaderListener.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1897435389%2FFunctions%2F858693387" anchor-label="restoreFactory" id="1897435389%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/restore-factory.html"><span>restore</span><wbr></wbr><span><span>Factory</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1897435389%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="../-generic-reader/restore-factory.html"><span class="token function">restoreFactory</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">初期値に戻ります。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1750269764%2FFunctions%2F858693387" anchor-label="setChannel" id="-1750269764%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-channel.html"><span>set</span><wbr></wbr><span><span>Channel</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1750269764%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-channel.html"><span class="token function">setChannel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">channels<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief ">RFIDリーダーの周波数のIndex</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1574668885%2FFunctions%2F858693387" anchor-label="setDefaultRFParameter" id="-1574668885%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/set-default-r-f-parameter.html"><span>set</span><wbr></wbr><span>Default</span><wbr></wbr><span><span>RFParameter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1574668885%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="../-generic-reader/set-default-r-f-parameter.html"><span class="token function">setDefaultRFParameter</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">RFIDリーダーのRFパラメータをデフォルト設定に戻します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1973412419%2FFunctions%2F858693387" anchor-label="setEpcFilter" id="1973412419%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#819041894%2FFunctions%2F858693387"><span>set</span><wbr></wbr><span>Epc</span><wbr></wbr><span><span>Filter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1973412419%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="index.html#819041894%2FFunctions%2F858693387"><span class="token function">setEpcFilter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mask<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">EPCフィルタを設定します。特定のEPC値に基づいてタグをフィルタリングします。</p></div><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-epc-filter.html"><span class="token function">setEpcFilter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">masks<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token operator">&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">start<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">length<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief ">複数のEPCフィルタを設定します。指定された複数のEPC値に基づいてタグをフィルタリングします。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="629091828%2FFunctions%2F858693387" anchor-label="setFilter" id="629091828%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-filter.html"><span>set</span><wbr></wbr><span><span>Filter</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="629091828%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-filter.html"><span class="token function">setFilter</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mb<span class="token operator">: </span><a href="../-enum/-memory-bank/index.html">Enum.MemoryBank</a><span class="token punctuation">, </span></span><span class="parameter ">mask<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">start<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">length<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief ">RFIDリーダーの読取りフィルタを設定します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1026327996%2FFunctions%2F858693387" anchor-label="setFilters" id="1026327996%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-filters.html"><span>set</span><wbr></wbr><span><span>Filters</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1026327996%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-filters.html"><span class="token function">setFilters</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">mb<span class="token operator">: </span><a href="../-enum/-memory-bank/index.html">Enum.MemoryBank</a><span class="token punctuation">, </span></span><span class="parameter ">filterList<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="../-filter/index.html">Filter</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief ">複数の読取りフィルタを設定します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-738715821%2FFunctions%2F858693387" anchor-label="setPower" id="-738715821%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-power.html"><span>set</span><wbr></wbr><span><span>Power</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-738715821%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-power.html"><span class="token function">setPower</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">power<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html">Float</a></span></span><span class="token punctuation">)</span></div><div class="brief ">RFIDリーダーの電力レベル</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1143609248%2FFunctions%2F858693387" anchor-label="setPowerList" id="1143609248%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#1143609248%2FFunctions%2F858693387"><span>set</span><wbr></wbr><span>Power</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1143609248%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="index.html#1143609248%2FFunctions%2F858693387"><span class="token function">setPowerList</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">&lt;set-?&gt;<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://developer.android.com/reference/kotlin/java/lang/Float.html">Float</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">RFIDリーダーがサポートする電力レベルのリスト</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="441408497%2FFunctions%2F858693387" anchor-label="setQValue" id="441408497%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-q-value.html"><span>set</span><wbr></wbr><span><span>QValue</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="441408497%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-q-value.html"><span class="token function">setQValue</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">qValue<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief "><ul><li></li></ul>QValue アンテナのビューのフィールドで想定されるタグ数：2^Q</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-999762456%2FFunctions%2F858693387" anchor-label="setRfMode" id="-999762456%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-rf-mode.html"><span>set</span><wbr></wbr><span>Rf</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-999762456%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-rf-mode.html"><span class="token function">setRfMode</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rfMode<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span></div><div class="brief ">RFMode(LinkProfile)</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2083515769%2FFunctions%2F858693387" anchor-label="setRfModeList" id="-2083515769%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="index.html#-2083515769%2FFunctions%2F858693387"><span>set</span><wbr></wbr><span>Rf</span><wbr></wbr><span>Mode</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2083515769%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="index.html#-2083515769%2FFunctions%2F858693387"><span class="token function">setRfModeList</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">&lt;set-?&gt;<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token operator">&gt;</span></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">利用可能なRFモード(LinkProfile)のリスト</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2138962359%2FFunctions%2F858693387" anchor-label="setSearchMode" id="2138962359%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-search-mode.html"><span>set</span><wbr></wbr><span>Search</span><wbr></wbr><span><span>Mode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2138962359%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-search-mode.html"><span class="token function">setSearchMode</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">探索モードを設定します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1766167063%2FFunctions%2F858693387" anchor-label="setSession" id="-1766167063%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-session.html"><span>set</span><wbr></wbr><span><span>Session</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1766167063%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-session.html"><span class="token function">setSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">session<span class="token operator">: </span><a href="../-enum/-session/index.html">Enum.Session</a></span></span><span class="token punctuation">)</span></div><div class="brief ">C1G2 セッション</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-54028311%2FFunctions%2F858693387" anchor-label="setSessionFlag" id="-54028311%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="set-session-flag.html"><span>set</span><wbr></wbr><span>Session</span><wbr></wbr><span><span>Flag</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-54028311%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="set-session-flag.html"><span class="token function">setSessionFlag</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">sessionFlag<span class="token operator">: </span><a href="../-enum/-session-flag/index.html">Enum.SessionFlag</a></span></span><span class="token punctuation">)</span></div><div class="brief ">RFIDリーダーのセッションフラグ</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="698749723%2FFunctions%2F858693387" anchor-label="startBarcode" id="698749723%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/start-barcode.html"><span>start</span><wbr></wbr><span><span>Barcode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="698749723%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="../-generic-reader/start-barcode.html"><span class="token function">startBarcode</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">バーコードの読取を開始します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2099399684%2FFunctions%2F858693387" anchor-label="startInventory" id="-2099399684%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="start-inventory.html"><span>start</span><wbr></wbr><span><span>Inventory</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2099399684%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="start-inventory.html"><span class="token function">startInventory</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">連続的にタグの読取を開始します。 読まれたタグ情報はGenericReaderListener.</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1784386429%2FFunctions%2F858693387" anchor-label="stopBarcode" id="-1784386429%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-generic-reader/stop-barcode.html"><span>stop</span><wbr></wbr><span><span>Barcode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1784386429%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">fun </span><a href="../-generic-reader/stop-barcode.html"><span class="token function">stopBarcode</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">バーコードの読取を終了します。</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1655446454%2FFunctions%2F858693387" anchor-label="stopInventory" id="-1655446454%2FFunctions%2F858693387" data-filterable-set=":R3HandyEngine:dokkaHtml/release"></a>
+          <div class="table-row" data-filterable-current=":R3HandyEngine:dokkaHtml/release" data-filterable-set=":R3HandyEngine:dokkaHtml/release">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="stop-inventory.html"><span>stop</span><wbr></wbr><span><span>Inventory</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1655446454%2FFunctions%2F858693387"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":R3HandyEngine:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">fun </span><a href="stop-inventory.html"><span class="token function">stopInventory</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="brief ">タグの読取を終了します。</div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

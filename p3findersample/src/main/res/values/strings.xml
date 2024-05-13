@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P3FinderSample</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_remove">RemoveAuthentication</string>
+    <string name="btn_rssiRange">SetRssiRangParameter</string>
+    <string name="btn_others">SetOtherParameters</string>
+    <string name="btn_settings">Settings</string>
+    <string name="title_remove_license">Remove Authentication of P3FinderSDK</string>
+    <string name="text_remove_license">Are you sure you would like to remove Authentication of P3FinderSDK?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
