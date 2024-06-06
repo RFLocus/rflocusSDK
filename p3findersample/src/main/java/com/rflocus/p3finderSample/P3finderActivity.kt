@@ -167,8 +167,10 @@ class P3finderActivity : RfidActivity(){
         private var tmpEpcSet = HashSet<String>()
 
         init {
-            if(reader?.readerType == Enum.ReaderType.SP1){
-                TARGET_MAX_COUNT = 3
+            if(reader?.readerType == Enum.ReaderType.RFR900_901){
+                TARGET_MAX_COUNT = 8
+            }else{//spq,keyence
+                TARGET_MAX_COUNT = 6
             }
         }
         private var mSearchTimer: Timer? = null
